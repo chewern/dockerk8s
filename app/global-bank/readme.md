@@ -61,6 +61,7 @@ Get the HOST using below command and access it using the browser
 
 `kubectl get ingress`
 open the URL under HOSTS shown in screen
+(login credentials: admin / unigps)
 
 # Dockerization
 
