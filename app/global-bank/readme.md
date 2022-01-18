@@ -70,7 +70,8 @@ Every microservice, contains Dockerfile which is used to build the microservice.
 # Deploy on Kubernetes
 Run below commands in your cluster
 
-`kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/01a-authentication-db.yaml
+```
+kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/01a-authentication-db.yaml
 
 kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/03a-customer-db.yaml
 
@@ -88,4 +89,5 @@ kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/mai
 
 kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/05b-transaction.yaml
 
-kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/06-frontend.yaml`
+kubectl apply -f https://raw.githubusercontent.com/brainupgrade-in/dockerk8s/main/app/global-bank/06-frontend.yaml
+```
